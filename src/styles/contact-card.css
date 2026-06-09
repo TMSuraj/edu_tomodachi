@@ -1,0 +1,44 @@
+.contact-card{
+    min-width: 30%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: var(--colour-text);
+    background-color: var(--colour-secondary);
+    border-radius: 1rem;
+}
+.contact-card img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.contact-card__title{
+    width: 100%;
+    line-height: 1.25;
+}
+.contact-card__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+.contact-card__main>div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    line-height: 1.25;
+}
+
+.contact-card__media img{
+   width: 2rem;
+   height: 2rem;
+}
+
+.contact-card__media ul{
+    display: flex;
+    gap: 1rem;
+}
+
+
+

@@ -1,0 +1,86 @@
+.canada{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.canada__title-section{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--fs-xl);
+    color: var(--colour-text);
+    background-color: var(--colour-secondary);
+}
+.canada__intro-section{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    color: var(--colour-primary);
+    background-color: var(--colour-cta);
+}
+.canada__intro-section>div:first-child{
+    width: 80%;
+    height: 350px;
+}
+.canada__intro-section>div:first-child>img{
+    width: 100%;
+    height: 100%;
+}
+.canada__intro-section>div:last-child>div:last-child{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    gap: 1rem;
+}
+/* Reasons Section */
+.canada__reasons-section{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: var(--colour-quinary);
+    background-color: var(--colour-text);
+}
+.canada__reasons-section>div:last-child{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.canada__reasons-section>div:last-child>div{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.canada__reasons-section>div:last-child h3{
+    border-bottom: 2px solid var(--colour-quinary) ;
+}
+.canada__courses-section{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    text-align: justify;
+    color: var(--colour-text);
+    background-color: var(--colour-quinary);
+}
+.canada__courses-section ul{
+    list-style: inside square;
+}
+
+

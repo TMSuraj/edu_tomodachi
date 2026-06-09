@@ -1,0 +1,65 @@
+:root{
+    /* fonts */
+--fs-s: 0.75rem;
+--fs-m: 1rem;
+--fs-l: 1.5rem;
+--fs-xl: 2rem;
+--fs-xxl: 2.5rem;
+
+/* colour palette */
+--colour-primary:#0a0b36;
+--colour-secondary:#9b2020;
+--colour-tertiary:#f0d9b0;
+--colour-quinary:#1a3a6b;
+--colour-cta:#e4b981;
+--colour-text:#f9f5ef;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    line-height: 1.6;
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-variation-settings: "wdth" 100;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,h2,h3,h4{
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings: "wdth" 100;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,ol {
+    list-style: none;
+}

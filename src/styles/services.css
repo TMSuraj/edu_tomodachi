@@ -1,0 +1,85 @@
+.services{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--colour-text);
+}
+.services__title-section{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--fs-xl);
+    color: var(--colour-text);
+    background-color: var(--colour-quinary);
+}
+/* Counselling Section */
+.services__counselling-section{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: justify;
+    background-color: var(--colour-secondary);
+}
+.services__counselling-section>div:last-child{
+    width: 100%;
+}
+.services__counselling-section>div:last-child>ul{
+    list-style: inside square;
+}
+/* Preparation Section */
+.services__preparation-section{
+    width: 100%;
+    height: 90vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: justify;
+    color: var(--colour-primary);
+    background-color: var(--colour-text);
+    border-radius: 2rem;
+}
+.services__preparation-section>div:last-child{
+    width: 100%;
+}
+.services__preparation-section>div:last-child>ul{
+    list-style: inside square;
+}
+/* Processing Section */
+.services__processing-section{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: justify;
+    color: var(--colour-secondary);
+    background-color: var(--colour-cta);
+}
+.services__processing-section>div:last-child{
+    width: 100%;
+}
+.services__processing-section>div:last-child>ul{
+    list-style: inside square;
+}
+
+/* Tablet Screen */
+@media (max-width:768px) {
+    .services>div{
+        padding:2rem 1rem;
+    }
+    .services__preparation-section{
+        height: auto;
+    }
+}

@@ -1,0 +1,39 @@
+.contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--colour-text);
+}
+.contact__title{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: brown;
+}
+.contact__title>h2{
+    font-size: var(--fs-xl);
+}
+.contact__main{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.contact__map{
+    width: 100%;
+    height: 40vh;
+}
+.contact__map>iframe{
+    width: 100%;
+    height: 100%;
+}
+/* Moblile Screen */
+@media (max-width:480px) {
+    .contact__main{
+        flex-direction: column;
+    }
+}

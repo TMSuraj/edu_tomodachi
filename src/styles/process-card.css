@@ -1,0 +1,41 @@
+.process-card{
+    width: 100%;
+    height: 110px;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.process-card>div:first-child{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: var(--fs-l);
+    font-weight: 650;
+    background-color:var(--colour-secondary);
+}
+.process-card>div:last-child{
+    width: 80%;
+    height: 100%;
+}
+.process-card>div:last-child>h4{
+    width: 100%;
+    border-bottom: 1.5px solid var(--colour-secondary);
+}
+
+/* Mobile Screen */
+@media (max-width:480px) {
+    .process-card{
+        width: 100%;
+        height: 150px;
+        padding: 1rem;
+    }
+    .process-card>div:first-child{
+        width: 30%;
+        height: 100%;
+    }
+}
