@@ -1,5 +1,6 @@
 import React from 'react';
 import pictures from '../data/pictures';
+import '../styles/imageslider.css';
 
 const ImageSlider = () => {
   const duplicatedPictures = [...pictures, ...pictures];
